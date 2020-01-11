@@ -46,7 +46,7 @@ tasks.whenTaskAdded { task ->
 
 protobuf {
     protoc {
-        artifact = 'com.google.protobuf:protoc:3.10.0'
+        path = '/usr/local/bin/protoc'
     }
     generateProtoTasks {
         all().each { task ->
